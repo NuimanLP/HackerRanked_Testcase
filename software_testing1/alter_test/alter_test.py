@@ -25,7 +25,7 @@ class AlterTest(unittest.TestCase):
     def test_alter_7777_num(self):
         text = '7777'
         num_of_alter_char = alternatingChar(text)
-        self.assertEqual(num_of_alter_char, '4')
+        self.assertEqual(num_of_alter_char, '3')
     
     def test_alter_4321_num(self):
         text = '4321'
